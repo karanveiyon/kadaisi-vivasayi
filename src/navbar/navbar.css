@@ -1,0 +1,37 @@
+.navbar
+{
+    background-image: url('../asserts/coverpic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    
+}
+.navmenu-area{
+    background-color: rgb(57, 57, 57);
+    opacity: .8;
+    position: fixed;
+    width: 100%;
+}
+.navmenu
+{
+    padding: 1rem;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    z-index: 3;
+    color: white;
+    font-family: kavivanar;
+}
+@media screen and (max-device-width: 640px) {
+    .navmenu {
+        font-size: .8em;
+    }
+  }
+.navmenu :hover{
+    cursor:pointer;
+}
+.link-tag :hover{
+cursor:pointer;
+}

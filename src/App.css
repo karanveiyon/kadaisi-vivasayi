@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+
+}
+.parallax {
+  /* The image used */
+  background-image: url("./asserts/nallandi-vaazhviyal.jpg");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*    background-attachment: scroll; */
+}
+@media only screen and (max-device-width: 1200px) {
+  .parallax {
+    background-attachment: scroll;
+
+  }
+}
+
+::-webkit-scrollbar{
+  width: 2px;
+  background-color:tomato;
+}
+::-webkit-scrollbar-thumb
+{
+  background-color: greenyellow;
+}

@@ -1,0 +1,43 @@
+#nallandi-vaazhviyal{
+ 
+    background-image: url('../asserts/nirai.png');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: auto;
+    padding-left: 3.5rem;
+    line-height: 3rem;
+  
+  }
+  .vaazhviyal{
+    background-color: rgb(64, 64, 64);
+    width: fit-content;
+    color: white;
+    font-family: kavivanar;
+    padding: 1rem;
+    border-radius: 8px;
+    opacity: .8;
+    transition: background-color color 2s;
+
+
+  }
+  #vaazhviyal{
+    transition-timing-function: ease-out;
+/*     transition-delay: 2s; */
+  }
+
+  #vaazhviyal :hover{
+    background-color: whitesmoke;
+    color: black;
+    width: fit-content;
+    padding: 1rem;   
+    border-radius: 8px;
+ 
+
+  }
